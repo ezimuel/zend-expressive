@@ -452,7 +452,8 @@ $app->run();
 ### Using the container to register middleware
 
 If you use a container to fetch your application instance, you have an
-additional option for specifying middleware for the pipeline: configuration:
+additional option for specifying middleware for the pipeline. Use the following
+configuration:
 
 ```php
 return [
